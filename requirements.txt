@@ -1,0 +1,5 @@
+"fastapi[all]"
+"uvicorn[standard]"
+sqlalchemy==1.4.44
+python_decouple==3.6
+psycopg2-binary==2.9.5
