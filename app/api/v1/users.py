@@ -3,7 +3,7 @@ from fastapi import APIRouter
 
 router = APIRouter()
 
-@router.get("/users/")
+@router.get("/user/")
 def create_user():
     user = Users()
     return "ok", 200
